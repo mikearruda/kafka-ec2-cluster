@@ -15,3 +15,8 @@ This project deploys a Kafka and ZooKeeper cluster on EC2.
 | kafka_binary | Kafka binary URL | string | `https://archive.apache.org/dist/kafka/2.8.0/kafka_2.13-2.8.0.tgz` | no |
 | number_of_zones | The number of isolated subnets/zones in which brokers are distributed | number | `3` | no |
 | volume_size | EBS storage volume per broker (GiB) | number | `50` | no |
+
+---
+
+<i>The contents of this repository represent my viewpoints and not of my past or current employers, including Amazon Web
+Services (AWS). All third-party libraries, modules, plugins, and SDKs are the property of their respective owners.</i>
