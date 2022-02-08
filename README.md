@@ -1,9 +1,13 @@
 # Kafka/ZooKeeper Cluster on EC2
-
 This project deploys a Kafka and ZooKeeper cluster on EC2.
-
+## Usage
+1. Install Terraform
+2. Set `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables
+3. Run `terraform init`
+4. Run `terraform plan`
+5. Run `terraform apply`
+6. To delete all resources, run `terraform destroy`
 ## Variables
-
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
 | broker_count | Number of Apache Kafka brokers to deploy | number | `3` | no |
